@@ -48,8 +48,6 @@
 packages/
 debug/
 release/
-x64/
-win32/
 
 # specific files
 del_not_needed_folder.bat
