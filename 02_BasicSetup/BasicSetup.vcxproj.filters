@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="pch">
+      <UniqueIdentifier>{e840e59c-40e8-4380-86f6-6abe8d53abfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="typdef">
+      <UniqueIdentifier>{927795c1-677b-4eae-aa5f-6e5e1679f8f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main Entry">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{2471f182-752e-48c9-81a7-6dcc865ae2ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{de92f6d6-11c8-4499-9a1e-ae7ad4cbdfac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\D3D12Renderer">
+      <UniqueIdentifier>{1acb9a89-c9d7-4b16-998f-b070c9d3c4e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\ResrouceManager">
+      <UniqueIdentifier>{6a132869-f3f2-4bf0-91fc-addc49b7d4a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{7dd6429e-0777-4324-806d-9db02eba2478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\ShaderTable">
+      <UniqueIdentifier>{2966d510-2117-4bf1-adf4-0b0bab8e52b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\RayTracingManager">
+      <UniqueIdentifier>{3eb5200d-2c46-4331-bb8d-a0f475a2342c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\ShaderManager">
+      <UniqueIdentifier>{4be3f876-4f37-426b-8b5c-c1a0e187442b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D12Renderer.h">
+      <Filter>Renderer\D3D12Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="typedef.h">
+      <Filter>typdef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3D_Util\D3DUtil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>Renderer\ShaderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\D3D_Util\ShaderUtil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\WriteDebugString.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\IndexCreator.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderTable.h">
+      <Filter>Renderer\ShaderTable</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderTable_Common.h">
+      <Filter>Renderer\ShaderTable</Filter>
+    </ClInclude>
+    <ClInclude Include="RayTracingManager.h">
+      <Filter>Renderer\RayTracingManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\LinkedList.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer_typedef.h">
+      <Filter>typdef</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main Entry</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D12Renderer.cpp">
+      <Filter>Renderer\D3D12Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\D3D_Util\D3DUtil.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>Renderer\ShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\D3D_Util\ShaderUtil.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Util\WriteDebugString.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Util\IndexCreator.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderTable.cpp">
+      <Filter>Renderer\ShaderTable</Filter>
+    </ClCompile>
+    <ClCompile Include="RayTracingManager.cpp">
+      <Filter>Renderer\RayTracingManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Util\LinkedList.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BasicSetup.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="BasicSetup.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Shaders\Raytracing_common.hlsl">
+      <Filter>Shader</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Shaders\Raytracing.hlsl">
+      <Filter>Shader</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Shaders\Raytracing_typedef.hlsl">
+      <Filter>Shader</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
